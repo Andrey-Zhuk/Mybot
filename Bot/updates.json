@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 397918186,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 876648566,
+          "is_bot": false,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 876648566,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "type": "private"
+        },
+        "date": 1580375393,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 397918187,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 876648566,
+          "is_bot": false,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 876648566,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "type": "private"
+        },
+        "date": 1580377690,
+        "text": "Привет"
+      }
+    },
+    {
+      "update_id": 397918188,
+      "message": {
+        "message_id": 4,
+        "from": {
+          "id": 876648566,
+          "is_bot": false,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 876648566,
+          "first_name": "Андрей",
+          "last_name": "Вилисов",
+          "type": "private"
+        },
+        "date": 1580384093,
+        "text": "привет"
+      }
+    }
+  ]
+}
