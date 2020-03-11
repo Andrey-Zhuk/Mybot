@@ -13,7 +13,7 @@ last_update_id = 0
 
 
 # запрос, обновление c необходимыми данными
-def get_updetes():
+def get_updates():
     url = URL + 'getupdates'
     r = requests.get(url)
     return r.json()
@@ -22,7 +22,7 @@ def get_updetes():
 # Вызывает функцию get_updetes, получает объект json
 # функция возвращает словарь messege
 def get_message():
-    data = get_updetes()
+    data = get_updates()
     # отвечает только на новые сообщения
     # получаем update_id, каждого обновления
     # записывает его в переменную, а затем
@@ -51,7 +51,7 @@ def send_message(chat_id, text = "Wait a second, please..."):
     requests.get(url)
 
 
-# глобальный цыкл
+# глобальный цикл
 def main():
     while True:
         answer = get_message()
